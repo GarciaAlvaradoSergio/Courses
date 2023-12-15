@@ -11,7 +11,8 @@
 </head>
 
 <body>
-    @include('pages._partials.menu')
+    @include('pages._partials.header')
+    @yield('content')
 </body>
 
 </html>
